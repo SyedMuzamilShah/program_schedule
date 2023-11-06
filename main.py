@@ -1,12 +1,11 @@
-from globle.user_input import get_user_input_for_simple_alg, get_user_input_for_priority
-from fcfs.fcfs import fcfs_sorted
-from globle.calculation import sort_data_for_calculation, compersion_alg
+# from globle.user_input import get_user_input_for_simple_alg, get_user_input_for_priority
+# from fcfs.fcfs import fcfs_sorted
+# from globle.calculation import sort_data_for_calculation, compersion_alg
 
-from priority.premptive import premptive_scheduling
-from priority.nonpremptive import non_premptive_scheduling
+# from priority.premptive import premptive_scheduling
+# from priority.nonpremptive import non_premptive_scheduling
 
-from sjf.nonpremptive import sjf_non_premptive
-from sjf.premptive import sjf_premptive
+# from sjf.nonpremptive import sjf_non_premptive
 def main():
     print('''
     1 : First Come First Serive FCFS    2 : SJF-NonPremtive     3 : SRTF    4 : Priority Non-Premtive           
@@ -58,3 +57,5 @@ if __name__ == '__main__':
 # 5. Priority Premtive          /
 # 6. Compare Algorithum         /
 # 7. Exit                       /
+
+# from sjf.premptive import sjf_premptive
