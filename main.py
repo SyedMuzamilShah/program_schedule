@@ -56,5 +56,5 @@ if __name__ == '__main__':
 # 3. SRTF                       /
 # 4. Priority Non-Premtive      /
 # 5. Priority Premtive          /
-# 6. Compare Algorithum         X
+# 6. Compare Algorithum         /
 # 7. Exit                       /
