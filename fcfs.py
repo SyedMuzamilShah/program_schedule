@@ -1,4 +1,4 @@
-from globle.gantt_chart import gantt_chart
+from gantt_chart import gantt_chart
 def fcfs_sorted(processes):
     sorted_processes  = sorted(processes, key=lambda y: y["Arrival Time"])
     Name, Run, Completion, calculation_array  = [], [], [], []
@@ -7,6 +7,7 @@ def fcfs_sorted(processes):
     Completion.append(FirstArrivalTime)
     j = 0
     for i in range(len(sorted_processes)):
+        
         if ((a:=sorted_processes [i]["Arrival Time"]) > (b:=Completion[i+j])):
             Name.append("*")
             Run.append(total := (a-b))

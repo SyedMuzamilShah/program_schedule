@@ -1,4 +1,4 @@
-from globle.gantt_chart import gantt_chart
+from gantt_chart import gantt_chart
 def sjf_non_premptive(processes):
     ProcessName = []
     ProcessCompleteTime = []

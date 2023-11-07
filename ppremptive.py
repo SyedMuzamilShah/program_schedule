@@ -1,6 +1,6 @@
 import copy
-from globle.gantt_chart import gantt_chart
-from priority.filterdata import FilterData
+from gantt_chart import gantt_chart
+from filterdata import FilterData
 def premptive_scheduling(processes):
     ProcessName, RunTimeArray, CompletedTime = [], [], []
 

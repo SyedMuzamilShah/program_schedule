@@ -1,4 +1,4 @@
-from globle.gantt_chart import gantt_chart
+from gantt_chart import gantt_chart
 def non_premptive_scheduling(processes):
     processes.sort(key=lambda x: x["Arrival Time"])
     FirstArrivalTime = processes[0]["Arrival Time"]
